@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "question": "What is the main objective of your project?",
+      "category": "Planning",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 2,
+      "question": "Which technologies or frameworks are you using?",
+      "category": "Technical Stack",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 3,
+      "question": "Describe a major challenge you faced and how you solved it.",
+      "category": "Problem Solving",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 4,
+      "question": "How are you testing and validating your project?",
+      "category": "Evaluation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 5,
+      "question": "What improvements would you make if you had more time?",
+      "category": "Reflection",
+      "difficulty": "Easy"
+    }
+  ]
+  
