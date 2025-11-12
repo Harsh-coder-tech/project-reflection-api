@@ -1,0 +1,365 @@
+[
+    {
+      "id": 1,
+      "question": "What is the main objective of your project?",
+      "answer": "To build a web-based Project Reflection Journal that allows users to submit and retrieve answers to structured questions using a Flask API."
+    },
+    {
+      "id": 2,
+      "question": "Why did you choose this project?",
+      "answer": "It combines full-stack development, API design, and real-world usability — ideal for showcasing technical and reflective skills."
+    },
+    {
+      "id": 3,
+      "question": "Who is the target user of your project?",
+      "answer": "Students, educators, and teams who want to document project reflections or feedback."
+    },
+    {
+      "id": 4,
+      "question": "What problem does your project solve?",
+      "answer": "It simplifies the process of collecting and retrieving structured project reflections."
+    },
+    {
+      "id": 5,
+      "question": "Which technologies are used in the backend?",
+      "answer": "Flask (Python), flask-cors for CORS handling, and JSON for data storage."
+    },
+    {
+      "id": 6,
+      "question": "Which technologies are used in the frontend?",
+      "answer": "HTML, CSS, and JavaScript for dynamic interaction and UI rendering."
+    },
+    {
+      "id": 7,
+      "question": "How does your project demonstrate full-stack development?",
+      "answer": "It includes a Flask backend API, a dynamic frontend using HTML/CSS/JavaScript, and deployment on both Render and GitHub Pages."
+    },
+    {
+      "id": 8,
+      "question": "What are the key modules in your Flask application?",
+      "answer": "Routes for questions, submissions, and responses; JSON file handling; and CORS configuration."
+    },
+    {
+      "id": 9,
+      "question": "How is your project deployed?",
+      "answer": "The backend is deployed on Render, and the frontend is hosted on GitHub Pages."
+    },
+    {
+      "id": 10,
+      "question": "How do you manage version control for your project?",
+      "answer": "Using Git and GitHub to track changes, commit updates, and collaborate if needed."
+    },
+    
+        {
+          "id": 11,
+          "question": "How does your frontend interact with the backend?",
+          "answer": "Using JavaScript fetch calls to load questions from /questions and submit answers to /submit."
+        },
+        {
+          "id": 12,
+          "question": "How does your project handle user input validation?",
+          "answer": "It checks for empty answers and usernames on the frontend and validates question IDs on the backend."
+        },
+        {
+          "id": 13,
+          "question": "What is the difference between GET and POST in your API?",
+          "answer": "GET is used to retrieve questions and responses; POST is used to submit answers."
+        },
+        {
+          "id": 14,
+          "question": "How do you test individual API endpoints?",
+          "answer": "Using Postman to send requests and verify responses for each route."
+        },
+        {
+          "id": 15,
+          "question": "How do you debug frontend issues?",
+          "answer": "Using browser developer tools to inspect console logs, network requests, and DOM elements."
+        },
+        {
+          "id": 16,
+          "question": "How do you debug backend errors?",
+          "answer": "By checking Flask error logs and using print statements to trace logic."
+        },
+        {
+          "id": 17,
+          "question": "What is the purpose of the /responses route?",
+          "answer": "To return all submitted responses for display on the frontend."
+        },
+        {
+          "id": 18,
+          "question": "What is the purpose of the /response/<id> route?",
+          "answer": "To retrieve all responses submitted for a specific question ID."
+        },
+        {
+          "id": 19,
+          "question": "How do you handle errors in your Flask routes?",
+          "answer": "By returning appropriate status codes and error messages like 404 for missing questions."
+        },
+        {
+          "id": 20,
+          "question": "How do you ensure frontend-backend synchronization?",
+          "answer": "By using consistent question IDs and matching them in both frontend and backend logic."
+        },
+        
+            {
+              "id": 21,
+              "question": "How do you sanitize user input?",
+              "answer": "By escaping HTML characters before rendering user input in the DOM."
+            },
+            {
+              "id": 22,
+              "question": "What is the purpose of the sanitize() function?",
+              "answer": "To prevent XSS attacks by converting special characters to HTML-safe equivalents."
+            },
+            {
+              "id": 23,
+              "question": "How would you migrate to a database like SQLite?",
+              "answer": "By replacing JSON file operations with SQL queries using Flask-SQLAlchemy or sqlite3."
+            },
+            {
+              "id": 24,
+              "question": "How would you add user authentication?",
+              "answer": "By integrating Flask-Login or JWT tokens to manage user sessions and protect routes."
+            },
+            {
+              "id": 25,
+              "question": "How would you improve the UI/UX of your frontend?",
+              "answer": "By using a CSS framework like Bootstrap and adding animations or transitions for feedback."
+            },
+            {
+              "id": 26,
+              "question": "How would you make your project mobile-friendly?",
+              "answer": "By using responsive design techniques like media queries, flexible layouts, and touch-friendly UI elements to ensure usability across devices."
+            },
+            {
+              "id": 27,
+              "question": "How would you add analytics or dashboards?",
+              "answer": "By storing responses in a database and visualizing trends using charts or tables."
+            },
+            {
+              "id": 28,
+              "question": "How would you integrate email or notifications?",
+              "answer": "By using Flask-Mail or a third-party service like SendGrid to send updates on submission."
+            },
+            {
+              "id": 29,
+              "question": "How would you add filtering or search features?",
+              "answer": "By adding input fields and filtering the questions or responses based on keywords or categories."
+            },
+            {
+              "id": 30,
+              "question": "How do you prevent XSS attacks in your frontend?",
+              "answer": "By sanitizing user input before rendering it in the DOM using a sanitize() function."
+            },
+
+                {
+                  "id": 31,
+                  "question": "What is the role of the textarea in your HTML?",
+                  "answer": "To allow users to type and submit their answers to each question."
+                },
+                {
+                  "id": 32,
+                  "question": "What is the role of the Submit button?",
+                  "answer": "It triggers the submitAnswer() function to send the answer to the backend."
+                },
+                {
+                  "id": 33,
+                  "question": "What is the role of the showResponse() function?",
+                  "answer": "To display the submitted response in the 'Your Responses' section."
+                },
+                {
+                  "id": 34,
+                  "question": "What is the role of the loadQuestions() function?",
+                  "answer": "To fetch and render all questions from the backend when the page loads."
+                },
+                {
+                  "id": 35,
+                  "question": "What is the role of the loadResponses() function?",
+                  "answer": "To fetch and display all previously submitted responses."
+                },
+                {
+                  "id": 36,
+                  "question": "How does your frontend dynamically render content?",
+                  "answer": "Using JavaScript to fetch questions and responses, then updating the DOM with the results."
+                },
+                {
+                  "id": 37,
+                  "question": "What is the role of event listeners in your JavaScript code?",
+                  "answer": "They detect user actions like button clicks and trigger functions like submitAnswer()."
+                },
+                {
+                  "id": 38,
+                  "question": "How do you handle asynchronous operations in JavaScript?",
+                  "answer": "Using async/await syntax with fetch() to handle API calls and responses."
+                },
+                {
+                  "id": 39,
+                  "question": "What is the purpose of using fetch() in your frontend?",
+                  "answer": "To send HTTP requests to the backend API and receive data without reloading the page."
+                },
+                {
+                  "id": 40,
+                  "question": "How do you ensure frontend responsiveness?",
+                  "answer": "By using clean CSS layout, avoiding blocking scripts, and updating content dynamically."
+                },
+
+                    {
+                      "id": 41,
+                      "question": "What is the purpose of the responses.json file?",
+                      "answer": "To store all submitted answers persistently between sessions."
+                    },
+                    {
+                      "id": 42,
+                      "question": "What is the purpose of the questions.json file?",
+                      "answer": "To define the list of questions shown to users on the frontend."
+                    },
+                    {
+                      "id": 43,
+                      "question": "What is the purpose of the requirements.txt file?",
+                      "answer": "To list all Python dependencies needed to run the Flask backend."
+                    },
+                    {
+                      "id": 44,
+                      "question": "What is the purpose of the venv folder?",
+                      "answer": "To isolate project dependencies in a virtual environment."
+                    },
+                    {
+                      "id": 45,
+                      "question": "How do you deploy your backend on Render?",
+                      "answer": "By pushing the code to GitHub and connecting the repo to Render with a build command."
+                    },
+                    {
+                      "id": 46,
+                      "question": "How do you host your frontend on GitHub Pages?",
+                      "answer": "By placing the HTML/CSS/JS files in a GitHub repo and enabling Pages from the settings."
+                    },
+                    {
+                      "id": 47,
+                      "question": "How do you structure your project folders and files?",
+                      "answer": "Separate folders for backend (Flask app), frontend (HTML/CSS/JS), and data (JSON files)."
+                    },
+                    {
+                      "id": 48,
+                      "question": "What is the role of the __main__ block in app.py?",
+                      "answer": "It ensures the Flask app runs only when the script is executed directly, not when imported."
+                    },
+                    {
+                      "id": 49,
+                      "question": "How do you handle file read/write operations in Python?",
+                      "answer": "Using the open() function with json.load() and json.dump() for reading and writing JSON files."
+                    },
+                    {
+                      "id": 50,
+                      "question": "What is the role of GitHub in your workflow?",
+                      "answer": "It hosts my code, tracks version history, and serves the frontend via GitHub Pages."
+                    },
+
+                        {
+                          "id": 51,
+                          "question": "How does your API handle invalid question IDs?",
+                          "answer": "It returns a 404 error with a message 'Question not found'."
+                        },
+                        {
+                          "id": 52,
+                          "question": "What happens if a user submits an empty answer?",
+                          "answer": "The frontend alerts the user to enter both name and answer before submission."
+                        },
+                        {
+                          "id": 53,
+                          "question": "How do you handle duplicate submissions?",
+                          "answer": "Currently, duplicates are allowed; future improvements could include validation or overwrite options."
+                        },
+                        {
+                          "id": 54,
+                          "question": "How does your JavaScript handle errors?",
+                          "answer": "It uses try-catch blocks and displays fallback messages if fetch fails."
+                        },
+                        {
+                          "id": 55,
+                          "question": "How do you handle missing or invalid data in requests?",
+                          "answer": "By checking for required fields and returning error messages if data is missing or invalid."
+                        },
+                        {
+                          "id": 56,
+                          "question": "How do you ensure your code is modular and maintainable?",
+                          "answer": "By separating logic into functions, using clear naming, and keeping frontend/backend responsibilities distinct."
+                        },
+                        {
+                          "id": 57,
+                          "question": "How do you ensure your API is RESTful?",
+                          "answer": "By using clear endpoints, HTTP methods, and stateless communication with JSON responses."
+                        },
+                        {
+                          "id": 58,
+                          "question": "How do you manage state between frontend and backend?",
+                          "answer": "State is managed through question IDs and JSON files; no session or database is used."
+                        },
+                        {
+                          "id": 59,
+                          "question": "How do you prevent XSS attacks in your frontend?",
+                          "answer": "By sanitizing user input before rendering it in the DOM using a sanitize() function."
+                        },
+                        {
+                          "id": 60,
+                          "question": "How do you handle multiple users submitting answers?",
+                          "answer": "Each response includes a username, allowing multiple users to submit to the same question."
+                        },
+    
+                            {
+                              "id": 61,
+                              "question": "How does your project support viva preparation?",
+                              "answer": "I pre-store answers using the /submit API and retrieve them instantly via /response/<id> in Postman."
+                            },
+                            {
+                              "id": 62,
+                              "question": "What tools do you use for API testing?",
+                              "answer": "Postman for manual testing and browser fetch calls for live interaction."
+                            },
+                            {
+                              "id": 63,
+                              "question": "What are the advantages of using JSON for data exchange?",
+                              "answer": "It's lightweight, human-readable, and easily parsed by both Python and JavaScript."
+                            },
+                            {
+                              "id": 64,
+                              "question": "What is the role of jsonify() in Flask?",
+                              "answer": "It converts Python dictionaries into JSON responses for API clients like Postman or the frontend."
+                            },
+                            {
+                              "id": 65,
+                              "question": "What is the role of flask-cors?",
+                              "answer": "To allow cross-origin requests from the frontend hosted on a different domain (e.g., GitHub Pages)."
+                            },
+                            {
+                              "id": 66,
+                              "question": "What is the role of semantic HTML in your project?",
+                              "answer": "It improves accessibility and structure by using tags like <section>, <h1>, and <button> appropriately."
+                            },
+                            {
+                              "id": 67,
+                              "question": "How do you ensure accessibility in your frontend?",
+                              "answer": "By using proper labels, semantic tags, and keyboard-friendly controls."
+                            },
+                            {
+                              "id": 68,
+                              "question": "How do you optimize your CSS for readability?",
+                              "answer": "Using consistent indentation, comments, and grouping related styles together."
+                            },
+                            {
+                              "id": 69,
+                              "question": "What is the role of JSON.stringify() in your JS?",
+                              "answer": "It converts JavaScript objects into JSON strings before sending them in the body of a POST request."
+                            },
+                            {
+                              "id": 70,
+                              "question": "What is the role of the virtual environment in Python?",
+                              "answer": "To isolate project dependencies and avoid conflicts with global packages."
+                            },
+                            {
+                                "id": 71,
+                                "question": "What improvements would you make if you had more time?",
+                                "answer": "Nothing"
+                              }
+                              
+                          ]
+                          
