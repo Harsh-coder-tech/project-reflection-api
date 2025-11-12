@@ -1,2 +1,8 @@
+<<<<<<< HEAD
 Flask==2.3.3
 flask-cors==3.0.10
+=======
+flask
+flask-cors
+gunicorn
+>>>>>>> 927425018716cc1d80ccb68c2391dc705c8bd074
