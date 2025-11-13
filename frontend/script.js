@@ -1,4 +1,4 @@
-const API_BASE = "https://project-reflection-api.onrender.com";
+const API_BASE = "https://harshvats472.pythonanywhere.com";
 
 document.addEventListener("DOMContentLoaded", () => {
   loadQuestions();
